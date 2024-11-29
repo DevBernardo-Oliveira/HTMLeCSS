@@ -1,0 +1,46 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header h1, main h2{
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 1.125em;
+}
+
+span{
+    font-weight: bold;
+}
+
+.minha_foto{
+    width: 300px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+footer img{
+    width: 50px;
+    height: 50px;
+}
